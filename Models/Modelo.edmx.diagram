@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e9e74cba50fc4b72a4a9abb78d2e3210" Name="Diagram1">
+        <EntityTypeShape EntityType="DatosIntelimundoModel.Configuracion" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.Corporativo" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.CorreoNotificacion" Width="1.5" PointX="7.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.Generos" Width="1.5" PointX="8.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.MexCP" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.RolesUsuarios" Width="1.5" PointX="8.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.TiposUbicaciones" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.TiposUsuarios" Width="1.5" PointX="8.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.Ubicaciones" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatosIntelimundoModel.Usuarios" Width="1.5" PointX="10.5" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Corporativo_Configuracion" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Corporativo_Ubicaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_CorreoNotificacion_Corporativo" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Usuarios_Corporativo" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Usuarios_Generos" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_tblUbicaciones_tblMexCP" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Usuarios_RolesUsuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Ubicaciones_TiposUbicaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Usuarios_TiposUsuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="DatosIntelimundoModel.FK_Usuarios_Ubicaciones" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
